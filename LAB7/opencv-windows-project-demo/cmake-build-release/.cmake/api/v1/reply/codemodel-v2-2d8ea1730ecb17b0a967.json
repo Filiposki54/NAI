@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/filip/Desktop/opencv-windows-project-demo/cmake-build-release",
-		"source" : "C:/Users/filip/Desktop/opencv-windows-project-demo"
+		"build" : "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo/cmake-build-release",
+		"source" : "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/filip/Desktop/opencv-windows-project-demo
+# Install script for directory: C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/filip/Desktop/opencv-windows-project-demo/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

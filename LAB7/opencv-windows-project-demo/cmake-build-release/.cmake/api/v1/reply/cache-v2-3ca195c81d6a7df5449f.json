@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/filip/Desktop/opencv-windows-project-demo/cmake-build-release"
+			"value" : "c:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/filip/Desktop/opencv-windows-project-demo"
+			"value" : "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1242,18 +1242,6 @@
 			"value" : "[C:/Dev/opencv/mingw-build/install][v4.6.0()]"
 		},
 		{
-			"name" : "OpenCV_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for OpenCV."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Dev/opencv/build/x64/vc15/lib"
-		},
-		{
 			"name" : "ocvdemo_BINARY_DIR",
 			"properties" : 
 			[
@@ -1263,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/filip/Desktop/opencv-windows-project-demo/cmake-build-release"
+			"value" : "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo/cmake-build-release"
 		},
 		{
 			"name" : "ocvdemo_IS_TOP_LEVEL",
@@ -1287,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/filip/Desktop/opencv-windows-project-demo"
+			"value" : "C:/Users/filip/Desktop/NAI/LAB7/opencv-windows-project-demo"
 		}
 	],
 	"kind" : "cache",
