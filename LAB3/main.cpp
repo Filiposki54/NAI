@@ -16,11 +16,19 @@ using namespace std::chrono;
 //            (pair.first * pair.second) +
 //            pow(pair.second,2)
 double threehc(double x, double y){
-    return (2*pow(x,2)) - (1.05 * pow(x,4)) + (pow(x,6) / 6) + (x * y) + pow(y,2);
+    return (2*pow(x,2)) -
+           (1.05*pow(x,4)) +
+           (pow(x,6)/6) +
+           (x * y) + pow(y,2);
 }
-// Matyas function
-double matyas(double x, double y){
-    return 0.26 * (pow((x), 2) + pow((y), 2)) - 0.48 * x * y;
+// Booth function
+//auto Booth_f = [](std::pair<double, double> pair) {
+//    return  pow(pair.first + (2*pair.second)- 7,2) +
+//            pow((2*pair.first) + pair.second -5,2);
+//};
+double booth(double x, double y){
+    return pow(x + (2*y)- 7,2) +
+           pow((2*x) + y -5,2);
 }
 //auto Himmelblaus_f = [](std::pair<double, double> pair) {
 //    return  pow((pow(pair.first,2) + pair.second - 11),2) +
@@ -28,7 +36,8 @@ double matyas(double x, double y){
 //};
 // Himmelblau's function
 double himmel(double x, double y){
-    return pow((pow((x), 2) + y - 11), 2) + pow((x + pow((y), 2) - 7), 2);
+    return pow((pow(x,2) + y - 11),2) +
+           pow((x + pow(y,2) -7),2);
 }
 
 vector<double> full_review_method(function<double(double, double)> f, double low, double high, int repeats){
@@ -131,7 +140,7 @@ int main(int argc, char **argv){
     double high = atof(argv[3]);
     map<string, FnPtr> myMap;
     myMap["threehc"] = threehc;
-    myMap["matyas"] = matyas;
+    myMap["booth"] = booth;
     myMap["himmel"] = himmel;
 
     for(int i = 0; i < 25; i ++){
