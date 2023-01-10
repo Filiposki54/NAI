@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\filip\Desktop\opencv-windows-project-demo -BC:\Users\filip\Desktop\opencv-windows-project-demo\cmake-build-release
+  command = C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\filip\Desktop\NAI\LAB7\opencv-windows-project-demo -BC:\Users\filip\Desktop\NAI\LAB7\opencv-windows-project-demo\cmake-build-release
   description = Re-running CMake...
   generator = 1
 
